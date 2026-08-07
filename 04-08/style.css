@@ -1,0 +1,189 @@
+/* Atividade 1 */
+
+.box {
+    width: 200px;
+    background-color: silver;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+
+/* Atividade 2 */
+
+.box2 {
+    box-sizing: border-box;
+    width: 200px;
+    background-color: silver;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+
+/* Atividade 3 */
+
+.box3 {
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box31 {
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+    padding: 20px;
+
+}
+
+
+/* Atividade 4 */
+
+.box4 {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+
+/* Atividade 5 */
+
+.box5 {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+
+/* Atividade 6 */
+
+.box6 {
+    margin: 0 auto;
+}
+
+
+/* Atividade 7 */
+
+.box7,
+.box72 {
+    height: 100px;
+    margin: 20px;
+}
+
+
+/* Atividade 8 */
+
+.box8 {
+    width: 200px;
+    padding: 20px;
+    border: 20px solid black;
+    margin: 20px;
+    background-color: silver;
+}
+
+.botao {
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.botao:hover {
+    background-color: cadetblue;
+    transform: scale(1.01);
+}
+
+/* Atividade 9 */
+
+.box9 {
+    width: 200px;
+    padding: 30px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+/* Atividade 10 */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15rem;
+    gap: 20px; 
+    width: 100%;
+}
+
+.box10,
+.box11,
+.box12 {
+    text-align: center;
+    width: 30%;
+    padding: 130px;
+    margin: 50px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.box10::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagem\ -\ spring.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+    transition: opacity 0.2s ease;
+}
+
+.box11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagem\ -\ henry.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+    transition: opacity 0.2s ease;
+}
+
+.box12::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagem\ -\ michael.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+    transition: opacity 0.2s ease;
+}
+
+.box10 > *, 
+.box11 > *, 
+.box12 > * {
+    position: relative;
+    z-index: 1;
+}
+
+.box10:hover,
+.box11:hover,
+.box12:hover {
+    background-color: darkviolet;
+    transform: scale(1.05);
+}
