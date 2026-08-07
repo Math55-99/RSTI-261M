@@ -1,0 +1,259 @@
+body {
+    background-color: #121212
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    height: 2rem;
+
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    gap: -2px;
+}
+
+.email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.input-grupo {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.input-grupo input {
+    width: 88%;
+    padding: 16px 12px 6px 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #121212;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.input-grupo input:focus {
+    border-color: #fff;
+    border-width: 2px;
+    padding: 15px 11px 5px 11px;
+}
+
+.input-grupo label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a7a7a7;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.2s ease all;
+}
+
+.btn-continuar {
+    background-color: #1db954;
+    color: #121212;
+    border: none;
+    width: 16%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-continuar:hover {
+    background-color: #1ed760;
+    transform: scale(1.02);
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.opçoes {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.btn-numero {
+    background-color: #121212;
+    color: #fff;
+    border: 2px solid #727272;
+    width: 16%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-numero img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-numero:hover {
+    background-color: #0f0f0f;
+    transform: scale(1.02);
+}
+
+.btn-google {
+    background-color: #121212;
+    color: #fff;
+    border: 2px solid #727272;
+    width: 16%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-google img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-google:hover {
+    background-color: #0f0f0f;
+    transform: scale(1.02);
+}
+
+.btn-facebook {
+    background-color: #121212;
+    color: #fff;
+    border: 2px solid #727272;
+    width: 16%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-facebook img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-facebook:hover {
+    background-color: #0f0f0f;
+    transform: scale(1.02);
+}
+
+.btn-apple {
+    background-color: #121212;
+    color: #fff;
+    border: 2px solid #727272;
+    width: 16%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-apple img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-apple:hover {
+    background-color: #0f0f0f;
+    transform: scale(1.02);
+}
+
+.btn-numero,
+.btn-google,
+.btn-facebook,
+.btn-apple {
+    margin: -4px;
+}
+
+#nao-tem-conta {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #636262;
+    font-size: 14px;
+    margin-top: 4rem;
+}
+
+#cadastrar {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin-top: -8px;
+}
+
+#Termos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #c0b8b8;
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #c0b8b8;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1db954;
+}
