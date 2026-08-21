@@ -1,0 +1,110 @@
+h1 {
+    color: rgb(16, 17, 16);
+    font-size: 30px;
+    text-align: center; 
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+#titulo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#lista {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-image: url("imagem\ -\ 03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #680707;
+    color: rgb(15, 14, 14);
+    padding: 10px
+}
+
+a {
+    color: rgb(2, 2, 2)
+}
+
+section {
+    margin-top: 60px;
+    margin-left: 2rem;
+}
+
+.nome-riscado {
+    text-decoration: line-through;
+}
+
+.texto-sangue {
+    color: #ff0000;
+    font-size: 30px;
+    display: inline-block;
+    animation: gotejar 3s ease-in-out infinite;
+}
+
+@keyframes gotejar {
+
+    0%,
+    100% {
+        text-shadow:
+            1px 1px 1px #500000,
+            1px 3px 1px #700000,
+            1px 5px 2px #a00000;
+    }
+
+    50% {
+        text-shadow:
+            1px 1px 1px #500000,
+            1px 4px 1px #600000,
+            1px 8px 1px #700000,
+            1px 12px 1px #800000,
+            1px 16px 2px #a00000,
+            1px 22px 4px #ff0000;
+    }
+}
+
+.texto-sangue1 {
+    color: #ff0000;
+    font-size: 20px;
+    display: inline-block;
+    animation: gotejar 3s ease-in-out infinite;
+}
+
+@keyframes gotejar {
+
+    0%,
+    100% {
+        text-shadow:
+            1px 1px 1px #500000,
+            1px 3px 1px #700000,
+            1px 5px 2px #a00000;
+    }
+
+    50% {
+        text-shadow:
+            1px 1px 1px #500000,
+            1px 4px 1px #600000,
+            1px 8px 1px #700000,
+            1px 12px 1px #800000,
+            1px 16px 2px #a00000,
+            1px 22px 4px #ff0000;
+    }
+}
