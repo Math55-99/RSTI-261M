@@ -1,0 +1,56 @@
+input {
+    background-color: var(--deep-ocean-blue);
+    border: 2px solid var(--transparency-white);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px var(--black);
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 45px;
+    outline: none;
+    padding: 0 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 140px;
+}
+
+input:focus {
+    border-color: var(--pacific-blue);
+    box-shadow: 0 0 12px var(--cyan-blue);
+    transform: translateY(-2px);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 700px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.digitar {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.cal__result {
+    align-items: center;
+    display: flex;
+    font-size: 3.5rem;
+    font-weight: 700;
+    justify-content: center;
+    width: 100%;
+}
