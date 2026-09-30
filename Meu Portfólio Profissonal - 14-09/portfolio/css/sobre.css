@@ -1,0 +1,74 @@
+.contato-content li,
+.formacao-content li,
+.sobre-content li,
+.tecnologia-content li {
+    color:  var(--content-li);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contato-content ul,
+.formacao-content ul,
+.sobre-content ul,
+.tecnologia-content ul {
+    display: inline-block;
+    list-style-type: square;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.div-home {
+    background-image: linear-gradient( var(--home-image),  var(--home-image)), url(/portfolio/img/imagem02.jpeg);
+    
+    background-size: cover;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px var(--home-shadow);
+    max-width: 600px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav-contato {
+    background-color: var(--nav-contato-fundo);
+    border: 1px solid  var(--nav-contato-borde);
+    border-radius: 30px;
+    color:  var(--nav-contato-letra);
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-contato:hover {
+    background-color:  var(--nav-contato-fundo-efeito);
+    transform: translateY(-2px);
+}
+
+.title {
+    color:  var(--title);
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.title h2 {
+    color:  var(--title-h2);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    color: var(--title-p);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
