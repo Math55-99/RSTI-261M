@@ -1,0 +1,19 @@
+
+.slides {
+    display: flex;
+}
+
+.carrosel {
+    overflow: hidden;
+}
+
+
+.slide {
+    display: none;
+    transition: transform 0.5s;
+    max-width: 100%;
+}
+
+.slide.ativo {
+    display: block;
+}
